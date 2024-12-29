@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/static/register.css">
+</head>
+<body>
+    <form action="/register" method="POST">
+        <p class="p1"> 
+            <input class="input" placeholder="Name" type="text" id="name" name="name" required>
+        </p>
+        <p class="p2"> 
+            <input class="input" placeholder="Surname" type="text" id="surname" name="surname" required>
+        </p>
+        <p class="p3">
+            <input class="input" placeholder="Age" type="number" id="age" name="age" min="15" required>
+        </p>
+        <p class="p4">
+            <label for="gender">Erkak</label>
+            <input type="radio" id="erkak" name="gender" value="Erkak" required>
+            <label for="gender">Ayol</label>
+            <input type="radio" id="ayol" name="gender" value="Ayol" required>
+        </p>
+        <p class="p5">
+            <input class="input" placeholder="Email" type="email" id="email" name="email" required>
+        </p>
+        <p class="p6">
+            <input class="input" placeholder="Password" type="password" id="password" name="password" required>
+        </p>
+        <p class="p7">
+            <input class="input" placeholder="Repeat password" type="password" id="repassword" name="repassword" required>
+        </p>
+        <p class="p8">
+            <button type="submit"> Yuborish </button>
+        </p>
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(Sunset-Ship-Background-Wallpaper-62030.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+form {
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px 2px rgba(112, 111, 111, 0.485);
+    width: 40%;
+
+}
+
+.p1 {
+    margin-top: 25%;
+    margin-left: 20%;
+}
+
+.p2 { 
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.p3 {
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.p4 {
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.p5 {
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.p6 {
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.p7 {
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.p8 {
+    margin-top: 5%;
+    margin-left: 20%;    
+}
+
+button {
+    width: 330px;
+    height: 60px;
+    border-radius: 30px;
+    border: 2px solid white;
+    background-color: rgba(235, 167, 41, 0.362);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.input {
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 20px;
+    border: 2px solid white;
+    background-color: rgba(235, 167, 41, 0.362);
+    font-size: 15px;
+}
+button:hover {
+    transform: scale(1);
+}
+
+button:active {
+    transform: scale(0.95);
+}
