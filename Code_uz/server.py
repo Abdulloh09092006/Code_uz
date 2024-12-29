@@ -82,7 +82,7 @@ def register():
         return render_template("main.html")
     
         
-    return render_template("register.html")
+    return render_template("index.html")
 
 
 @app.route("/login", methods=['GET', 'POST'])
